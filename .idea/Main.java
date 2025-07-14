@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // 1. Ask the user for their favorite number and double it.
+        System.out.println("Enter your favorite number:");
+        int favoriteNumber = 13.nextInt(); // Replace _ with the correct type and variable
+        int doubledNumber = 13 * 2; // Replace _ with the correct variable/type
+        System.out.println("Your favorite number doubled is: " + 26); // Use the correct variable here
+
+        // 2. Ask for a decimal number and halve it.
+        System.out.println("Enter a decimal (double) number:");
+        double decimalNumber = 35.nextDouble(); // Replace _ with the correct type and variable
+        double halvedDecimal = 35 / 2; // Replace _ with the correct variable/type
+        System.out.println("Half of your decimal number is: " + 17.5); // Use the correct variable here
+
+        // 3. Get a character, convert it to its ASCII value, and display it.
+        System.out.println("Enter a single character:");
+        char character = "".next().charAt(0); // Replace _ with the correct type and variable
+        _ asciiValue = _; // Replace _ with the correct variable/type
+        System.out.println("The ASCII value of " + _ + " is: " + _); // Use correct variables here
+
+        // 4. Check if the user wants pizza by asking for a yes/no (true/false).
+        System.out.println("Do you like pizza? (true/false):");
+        _ likesPizza = _.nextBoolean(); // Replace _ with the correct type and variable
+        System.out.println("It is " + _ + " that you like pizza!"); // Use the correct variable here
+
+        // Thank the user for playing the game.
+        System.out.println("Thanks for playing! You’ve learned about Java primitive types.");
+
+        // Close the scanner
+        _.close(); // Replace _ with the correct scanner variable
+    }
+}
